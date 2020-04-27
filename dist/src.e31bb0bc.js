@@ -120,6 +120,12 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 })({"index.js":[function(require,module,exports) {
 var sampleNumber = 1;
 console.log("Hello number ".concat(sampleNumber));
+/* 
+ Caso, un commit que esta mal
+ 1. Eliminar commit sin haber hecho puch
+2. Eliminar commit si ya se ha hecho push
+3. Combrobar que no se hall actualizado la rama del servidor
+*/
 },{}],"../node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
