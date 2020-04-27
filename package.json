@@ -1,0 +1,25 @@
+{
+  "name": "undo-commit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"rimraf dist && parcel ./src/index.html --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gfmarcos/undo-commit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gfmarcos/undo-commit/issues"
+  },
+  "homepage": "https://github.com/gfmarcos/undo-commit#readme",
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "rimraf": "^3.0.2"
+  }
+}
