@@ -120,6 +120,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 })({"index.js":[function(require,module,exports) {
 var sampleNumber = 1;
 var sampleNumberB = 2;
+var sampleNumberC = 3;
 console.log("Hello number ".concat(sampleNumber));
 },{}],"../node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
